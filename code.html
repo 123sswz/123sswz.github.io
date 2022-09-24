@@ -1,0 +1,81 @@
+<html>
+		<head>
+    <meta name="viewport" content="width=device-width">
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    var items = $(".inline");
+    for(var i = 0; i < items.length; i++){
+        var idx = Math.floor(Math.random() * items.length -1) + 1;
+        var idx2 = Math.floor(Math.random() * items.length -1) + 1;
+        items.eq(idx).before(items.eq(idx2));
+};
+});
+</script>
+
+<script>
+	function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+var a = getParameterByName('a');
+
+var skin = a.split("__");
+</script>
+
+			</head>
+  <style>
+   * {color:#000;text-decoration:none;word-break:keep-all}
+   .skins , .cape-skins {display:inline-block}
+		body {margin:0;padding:0}
+    #body {background:#fff;padding:15px;box-sizing:border-box;margin:0 auto;width:80%}
+	  #inline, .inline {display:inline-block;padding:2px;box-sizing:border-box}
+
+span {font-size:13px;color:#fafafa;margin:10px 0}
+span a {font-size:13px;color:#ccc}
+iframe {margin:0 !important}
+@media (max-width:1024px) {
+#body {width:100%}
+}
+	#inline, .inline {width:50%}
+	#inline img, .inline img {width:100%}
+	#box {padding:5px;border-radius:25px;box-sizing:border-box}
+    </style>
+
+<div style='position:fixed;background: #fff;padding:25px;box-sizing:border-box !important;width:100%;opacity:0.98'>
+
+<img onClick="javascript:window.scrollTo(0,0)" src='/up-arrow.png' style='float:right;width:50px'/>
+	
+</div>
+<div style='height:100px'></div>	
+<body><div id='body'> 
+
+<center>
+
+<script>
+//var skin = new Array('','','','','','');
+
+document.write("<div class='inline'><a href='/down?src=/img/"+skin[0]+"' ><div id='box'><div class=\"skins\" data-player=\""+skin[0]+"\"></div><div class=\"cape-skins\" data-player=\""+skin[0]+"\"></div></div></a></div>");
+document.write("<div class='inline'><a href='/down?src=/img/"+skin[1]+"' ><div id='box'><div class=\"skins\" data-player=\""+skin[1]+"\"></div><div class=\"cape-skins\" data-player=\""+skin[1]+"\"></div></div></a></div>");
+document.write("<div class='inline'><a href='/down?src=/img/"+skin[2]+"' ><div id='box'><div class=\"skins\" data-player=\""+skin[2]+"\"></div><div class=\"cape-skins\" data-player=\""+skin[2]+"\"></div></div></a></div>");
+document.write("<div class='inline'><a href='/down?src=/img/"+skin[3]+"' ><div id='box'><div class=\"skins\" data-player=\""+skin[3]+"\"></div><div class=\"cape-skins\" data-player=\""+skin[3]+"\"></div></div></a></div>");
+document.write("<div class='inline'><a href='/down?src=/img/"+skin[4]+"' ><div id='box'><div class=\"skins\" data-player=\""+skin[4]+"\"></div><div class=\"cape-skins\" data-player=\""+skin[4]+"\"></div></div></a></div>");
+document.write("<div class='inline'><a href='/down?src=/img/"+skin[5]+"' ><div id='box'><div class=\"skins\" data-player=\""+skin[5]+"\"></div><div class=\"cape-skins\" data-player=\""+skin[5]+"\"></div></div></a></div>");
+
+document.write("<div class='inline'><a href='/down?src=/img/"+skin[0]+"' ><div id='box'><div class=\"skins\" data-player=\""+skin[0]+"\"></div><div class=\"cape-skins\" data-player=\""+skin[0]+"\"></div></div></a></div>");
+document.write("<div class='inline'><a href='/down?src=/img/"+skin[1]+"' ><div id='box'><div class=\"skins\" data-player=\""+skin[1]+"\"></div><div class=\"cape-skins\" data-player=\""+skin[1]+"\"></div></div></a></div>");
+document.write("<div class='inline'><a href='/down?src=/img/"+skin[2]+"' ><div id='box'><div class=\"skins\" data-player=\""+skin[2]+"\"></div><div class=\"cape-skins\" data-player=\""+skin[2]+"\"></div></div></a></div>");
+document.write("<div class='inline'><a href='/down?src=/img/"+skin[3]+"' ><div id='box'><div class=\"skins\" data-player=\""+skin[3]+"\"></div><div class=\"cape-skins\" data-player=\""+skin[3]+"\"></div></div></a></div>");
+document.write("<div class='inline'><a href='/down?src=/img/"+skin[4]+"' ><div id='box'><div class=\"skins\" data-player=\""+skin[4]+"\"></div><div class=\"cape-skins\" data-player=\""+skin[4]+"\"></div></div></a></div>");
+document.write("<div class='inline'><a href='/down?src=/img/"+skin[5]+"' ><div id='box'><div class=\"skins\" data-player=\""+skin[5]+"\"></div><div class=\"cape-skins\" data-player=\""+skin[5]+"\"></div></div></a></div>");
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/fluke201@0.0.4/mc.js"></script>
+
+	</center>	  
+		  </div>
+  </body>
+</html>

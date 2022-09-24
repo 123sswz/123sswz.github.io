@@ -1,0 +1,58 @@
+
+  <meta name="viewport" content="width=device-width">
+
+<!doctype html>
+<html lang="en">
+<!-- head 부분에 Script를 넣어주세요.-->
+<head>
+<meta charset="utf-8">
+
+<script>
+	function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+var img = getParameterByName('img');
+var a = getParameterByName('a');
+</script>
+
+<!-- Sound JavaScript -->
+   <script>
+       function play(){
+       var audio = document.getElementById("audio");
+       audio.play();
+                 }  
+   </script>
+</header>
+<!-- html 파일이 저장되는 같은 위치에 music.mp3라는 이름으로 음악파일을 넣어주세요.-->
+
+<style>
+html {background:#000}
+body {	background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 400px 100%;
+	background-image: url('./a.jpg');
+	}
+#img {  position: absolute;
+width:100px;
+  top: 10vh;
+  left: 50%;
+margin-left: -50px;
+border-radius:50%}
+
+</style>
+
+<body onclick='play()'>
+
+<script>
+document.write("\
+<audio id='audio' src='http://"+a+"'><\/audio>");
+
+document.write("\
+<img id='img' src='http://"+img+"'><\/audio>");
+</script>	
+
+</body>
+

@@ -1,0 +1,16 @@
+<script>
+	function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+var a = getParameterByName('a');
+
+var arr = a.split("--");
+
+document.writeln(arr[0]); // apple
+document.writeln(arr[1]); // banana
+document.writeln(arr[2]); // orange
+</script>
+

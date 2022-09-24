@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+    RewriteCond %{REQUEST_FILENAME}\.html -f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ $1.html
+	
+	RewriteRule ^minecraft/([^/]+)$ mc/$1.html [NC,L]
+
+</IfModule>
+
+ErrorDocument 404 /test2
