@@ -11,7 +11,7 @@ var src = getParameterByName('src');
 </script>
 
 <style>
-html, body {padding:0;margin:0;text-decoration:none}
+html, body {padding:0;margin:0}
 #wrapper{display:table;height:100vh;width:100vw;padding:25px;box-sizing:border-box}
 #content{display: table-cell; vertical-align: middle}
 </style>
@@ -20,12 +20,8 @@ html, body {padding:0;margin:0;text-decoration:none}
 <div id="wrapper">
   <div id="content"><center>
 
-<!--<script>
-document.write("<a onclick='window.parent.location.href=\""+src+".png\"'><h2><center style='width:100%;line-height:80px;background:#09f;border-radius:25px;color:#fff'>Download</center></h2></a>");
-</script>-->
-
 <script>
-document.write("<a href='/down2?src="+src+"'><h2><center style='width:100%;line-height:80px;background:#09f;border-radius:25px;color:#fff'>Download</center></h2></a>");
+document.write("<a onclick='window.parent.location.href=\""+src+".png\"'><img src='"+src+"'></a>");
 </script>
 <a href="javascript:history.back();" style='text-decoration:none'><center style='width:100%;line-height:80px;background:#eee;border-radius:25px;color:#000'><h2>Backspace</h2></center></a>
 
