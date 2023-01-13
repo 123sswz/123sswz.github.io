@@ -5,15 +5,90 @@ $a = $_GET['a'];
 $b = $_GET['b'];
 
 //$app[] = '';
-$app = array("slenderman skins
-","sonic skins
-","blockmango skins
-","miniworld skins
+$app = array("glaxy store skins
+","one store skins
+","robin hood skins
+","doge skins
+","axie Infinity skins
+","pixelgun craft skins
+","miniworld blockcraft skins
+","villager skins
+","undertale skins
+","gta skins
+","pkxd unicorn skins
+","huggy wuggy skins
+","lego robux skins
+","yandere skins
+","fortnite skins
+","aphmau skins
+","blackpink kpop skins
+","mikecrack skins
+","godzilla skins
+","herobrine zombie skins
+","spiderman skins
+","sailormoon skins
+","frost diamond skins
+","pubg skins
+","freefire skins
+","exe tomas skins
+","detective conan skins
+","warden skins
+","halloween skins
+","valentine skins
+","snow golem skins
+","twice kpop skins
+","maid nya skins
+","agent fbi csi skins
+","scary obby skins
+","ender dragon skins
+","drowned skins
+","titan ravager skins
+","kda dva skins
+","kda akali skins
+","scp skins
+","deadpool skins
+","pacific rim skins
+","freddy skins
+","scary momo skins
+","annabelle skins
+","chucky skins
+","exe jason skins
+","la monja skins
+","steve skins
+","twitch streamer skins
+","dream youtuber skins
+","wither skeleton skins
+","zoglin hoglin skins
+","zootopia skins
+","hopps playhouse skins
+","gawr gura skins
+","teen titans skins
+","cherry blossom skins
+","sapnap youtuber skins
+","sirenhead skins
+","uma musume skins
+","fnf skins
+","snow white skins
+","pkxd pet skins
+","exe horror skins
+","miniblock skins
+","polar bear skins
+","sadako skins
+","marry dress skins
+","creeper skins
+","babyyoda skins
+","shinchan skins
+","itzy kpop skins
+","pkxd skins
+","messi soccer skins
+","spy skins
+","kizuna ai skins
+","kuromi skins
 ");
 
-for($f=$a;$f<=$b;$f++){
-
 	$num = 0;
+
+for($f=$a;$f<=$b;$f++){
 
 	$sitemap = fopen(G5_PATH.'/policy/'.$f.'.html', 'w') or die('file not found'); # 사이트맵 생성 경로 변경
 
