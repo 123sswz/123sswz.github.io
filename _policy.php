@@ -5,66 +5,44 @@ $a = $_GET['a'];
 $b = $_GET['b'];
 
 //$app[] = '';
-$app = array("pkxd skin
-","exe sonic skin
-","exe tomas skin
-","sirenhead skin
-","mmd skin
-","sailormoon skin
-","hatsune miku skin
-","maid skin
-","scp skin
-","robux skin
-","lego skin
-","freddy skin
-","enderman skin
-","blockmango miniworld skin
-","blackpink skin
-","newjeans skin
-","jason skin
-","underworld skin
-","freefire skin
-","nagatoro skin
-","cosplay skin
-","moana skin
-","toystory skin
-","goose duck skin
-","pixelgun skin
-","hex exe skin
-","undying totem skin
-","pkxd girl skin
-","pkxd boy skin
-","taylor swift skin
-","void skin
-","exe steve skin
-","sonic skin
-","vampire skin
-","blockcraft skin
-","yandere school skin
-","zombie skin
-","hoodie skin
-","space doge skin
-","entity303 skin
-","alex skin
-","steve skin
-","jenny skin
-","spider skin
-","camel skin
-","bunny skin
-","herobrine skin
-","gta skin
-","mr hopps skin
-","technoblade skin
-","pillagers skin
-","villager skin
-","warden skin
-","miniworld skin
-","paw skin
-","pikachu skin
-","eevee skin
-","freddy skin
-","kitty skin
-","among us skin
+$app = array("mommy longlegs skin
+","turningred skin
+","gawr gura skin
+","sakura school skin
+","uma musume skin
+","axolotl skin
+","mario skin
+","exe luigi skin
+","nezuko skin
+","annabelle skin
+","aot skin
+","mikecrack skin
+","chuck e cheese skin
+","kamen rider skin
+","zootopia skin
+","gacha skin
+","teen titans skin
+","frag skin
+","adopt me skin
+","mrbeast skin
+","michael jackson skin
+","fbi skin
+","godzilla skin
+","sadako skin
+","momo skin
+","twice skin
+","barbie skin
+","ironman skin
+","superman skin
+","batman skin
+","tokyo revengers skin
+","dreamlight skin
+","stitch skin
+","buzz skin
+","kermit skin
+","akinator skin
+","kda ahri skin
+","kda evelynn skin
 ");
 
 	$company = "Raoshad dev";
